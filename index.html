@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toqeer's Portfolio</title>
+    <style>
+      .service-list div{
+    margin-top: 5%;
+    background: #262626;
+    font-size: 15px ;
+    font-weight:300 ;
+    border-right: 10px;
+    padding: 30px;
+ transition: background 0.5s,transform 0.5s;
+}
+.service-list div:hover{
+background: #ff004f;
+transform:translateY(-10px);
+}
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2159a06bb6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header" class="bg-image " style="background-image: url(Myimage/back.png);background-size: cover;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Port<span>folio</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-text text-center text-white mt-5">
+                <p class="mt-5">APP/WEB developer</p>
+                <h1 class="mt-3">Hi, I'm <span class="text-danger">Toqeer Ahmad</span><br>from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="py-5 bg-dark text-white">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <img src="Myimage/user.png" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                  <h1 class="sub-title">About Me</h1>
+                  <p class="detail">
+                      Welcome to my graphic designing, App and Web Developer portfolio! 
+                      I am a professional graphic designer and App/Web developer with
+                      a creative eye and technical expertise in the field. My portfolio 
+                      showcases a diverse range of designs, developing app and web from 
+                      brochures, illustrations, packaging designs, to website layouts,
+                      that are visually stunning and highly effective. I work with
+                      clients from various industries, creating designs that accurately
+                      represent their brand and message. From concept to final delivery,
+                      I provide a tailored approach that meets the needs of my clients,
+                      whether it's an update of an existing logo or creating a new design
+                      from scratch . Browse my portfolio to see examples of my work and
+                      learn more about my design process.
+                  </p>
+                  <div class="accordion text-white bg-dark" id="accordionAbout">
+                      <div class="card bg-dark">
+                          <div class="card-header" id="headingSkills">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link active" type="button" data-toggle="collapse" data-target="#collapseSkills" aria-expanded="true" aria-controls="collapseSkills">
+                                      Skills
+                                  </button>
+                              </h2>
+                          </div>
+  
+                          <div id="collapseSkills" class="collapse show" aria-labelledby="headingSkills" data-parent="#accordionAbout">
+                              <div class="card-body bg-dark">
+                                  <ul>
+                                      <li><span>Flutter App Development</span><br>Building UI for multiple platforms with NoSQL Database Integration</li>
+                                      <li><span>Web Development</span><br>Building websites using HTML, CSS, Bootstrap, JavaScript And WordPress</li>
+                                      <li><span>Graphic Designing</span><br>Building UI, Logos, Posters</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="card bg-dark">
+                          <div class="card-header text-white" id="headingExperience">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExperience" aria-expanded="false" aria-controls="collapseExperience">
+                                      Experience
+                                  </button>
+                              </h2>
+                          </div>
+                          <div id="collapseExperience" class="collapse" aria-labelledby="headingExperience" data-parent="#accordionAbout">
+                              <div class="card-body text-white">
+                                  <ul>
+                                      <li><span>Flutter App Development</span><br>January/2023-current: Semester course App development From Air University/AggroEase App project and currently doing job as a freelancer</li>
+                                      <li><span>Web Development</span><br>2022-current: online course from GreatStack. Projects: Portfolio/Calculator websites, etc. And currently doing freelancing</li>
+                                      <li><span>Graphic Designing</span><br>2022-From NS training. Logos, Poster, E-invites, wedding Card and much more!</li>
+                                      <li><a href="https://github.com/toqeerabid10"><i class="fab fa-github-square"></i>  My Github</a></li>
+                                      <li><a href="Myimage/Toqeer-cv.pdf" class="myresume">My Resume</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="card bg-dark">
+                          <div class="card-header" id="headingEducation">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">
+                                      Education
+                                  </button>
+                              </h2>
+                          </div>
+                          <div id="collapseEducation" class="collapse" aria-labelledby="headingEducation" data-parent="#accordionAbout">
+                              <div class="card-body text-white">
+                                  <ul>
+                                      <li><span>Matriculation</span><br>2019-From F.G School Adamjee Road Rawalpindi</li>
+                                      <li><span>Intermediate-FSC</span><br>2019-2021 From Fauji Foundation College Rawalpindi</li>
+                                      <li><span>BS Computer Science</span><br>2021-current From Air University Islamabad</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+
+  <div id="services" class="py-5">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="row service-list">
+            <div class="col-md-4">
+                <div class="card mb-4 service-card bg-dark text-white">
+                    <div class="card-body">
+                        <i class="fab fa-app-store fa-3x mb-3"></i>
+                        <h2 class="card-title">App Development</h2>
+                        <p class="card-text">
+                            Our team of experienced Flutter developers helps you build modern, scalable mobile apps that deliver a feature-packed user experience. Our user-first approach and native development skills enable us to build Flutter apps tailored to your specific business requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 service-card bg-dark text-white">
+                    <div class="card-body">
+                        <i class="fas fa-code fa-3x mb-3"></i>
+                        <h2 class="card-title">Web Development</h2>
+                        <p class="card-text">
+                            Web development services help create all types of web-based software and ensure a great experience for web users. Different types of web solutions may seem similar from the outside, but we approach them differently and know what factors are winning in each case.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 service-card bg-dark text-white">
+                    <div class="card-body">
+                        <i class="fas fa-crop fa-3x mb-3"></i>
+                        <h2 class="card-title">Graphic Designing</h2>
+                        <p class="card-text">
+                            There's no limit to what you can get designed at DesignCrowd. Whether you're looking for a spectacular new logo or some stunning flyers, the talented global community of designers can make it happen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  <!-- Contact Me Section -->
+  <div id="contact" class="py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <h3 class="sub-title2">-Get In Touch-</h3>
+                  <p>Thank you for visiting My contact page. If you have any questions or comments, please feel free to reach out to me. I appreciate your feedback and will do my best to respond to your inquiry as soon as possible.</p>
+                  <p><i class="fas fa-paper-plane"></i> abidtouqeer73@gmail.com</p>
+                  <p><i class="fas fa-phone-square"></i> 03145345029</p>
+                  <div class="social-icons">
+                      <a href="https://www.facebook.com/profile.php?id=100046161229638&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter-square"></i></a>
+                      <a href="https://instagram.com/toqeer1016?igshid=NGExMmI2YTkyZg=="><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/toqeer-ahmad-91b546261"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <a href="Myimage/Toqeer-cv.pdf" class="btn btn-primary">Download My CV</a>
+              </div>
+              <div class="col-md-6">
+                  <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" class="form-control" placeholder="Your Name" required>
+                      <input type="email" name="Email" class="form-control" placeholder="Your Email" required>
+                      <textarea name="Message" class="form-control" rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                  </form>
+                  <div id="msg"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="py-4 bg-dark text-white text-center">
+      <div class="container">
+          <p>Created by <span>Toqeer Ahmad</span> | &copy; All rights reserved.</p>
+      </div>
+  </footer>
+    <!-- Include Bootstrap and other necessary scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
